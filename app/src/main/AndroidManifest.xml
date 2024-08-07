@@ -29,7 +29,8 @@
         <activity android:name=".Activity000" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/no_title">
+            android:theme="@style/no_title"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
