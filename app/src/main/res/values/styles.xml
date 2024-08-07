@@ -1,0 +1,57 @@
+<resources>
+    <declare-styleable name="vxmlcolor">
+        <attr name="vwcolor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="heColor">
+        <attr name="heColor" format="reference|color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="fColor">
+        <attr name="fColor" format="reference|color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="tlColor">
+        <attr name="tlColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="bnColor">
+        <attr name="bnColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="btnColor">
+        <attr name="btnColor" format="reference|color" />
+    </declare-styleable>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="titleTextColor">@color/primaryTitleColor</item>
+
+        <item name="vwcolor">@color/vxmlc</item>
+
+        <item name="heColor">@color/colorHe</item>
+
+        <item name="tlColor">@color/colorTl</item>
+
+        <item name="bnColor">@color/primaryTitleColor</item>
+
+        <item name="btnColor">@color/colorAccent</item>
+
+        <item name="fColor">@color/colorFill</item>
+
+    </style>
+
+    <style name="no_title" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

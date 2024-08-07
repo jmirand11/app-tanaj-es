@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    app:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/it_00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:gravity="end"
+        android:text="h7225"
+        android:textColor="?tlColor" />
+
+    <TextView
+        android:id="@+id/it_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:text="בראשית"
+        android:textColor="?heColor" />
+
+    <TextView
+        android:id="@+id/it_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:gravity="end"
+        android:text="En el principio"
+        android:textColor="?heColor" />
+
+    <TextView
+        android:id="@+id/it_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:gravity="end"
+        android:text="Bereshit"
+        android:textColor="?tlColor" />
+
+    <TextView
+        android:id="@+id/it_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:gravity="end"
+        android:text="Sust"
+        android:textColor="?heColor" />
+
+</LinearLayout>

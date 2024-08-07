@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+
+        <item name="android:windowBackground">@color/colorPrimaryNight</item>
+        <item name="titleTextColor">@color/primaryTitleColorNight</item>
+        <item name="vwcolor">@color/vxmlcNight</item>
+        <item name="heColor">@color/colorHeNight</item>
+        <item name="tlColor">@color/colorTlNight</item>
+        <item name="bnColor">@color/colorPrimaryNight</item>
+        <item name="fColor">@color/colorFillNight</item>
+
+        <item name="btnColor">#5A595B</item>
+
+    </style>
+
+    <style name="no_title" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+</resources>

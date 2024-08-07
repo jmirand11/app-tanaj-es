@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032140116636",
+    "project_id": "tanaj-f8346",
+    "storage_bucket": "tanaj-f8346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032140116636:android:e36b586ea8140bc3e7d359",
+        "android_client_info": {
+          "package_name": "com.example.tanaj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032140116636-1502nsv331vl3tb3f5tfnm3p205et0is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOh6DlPsT7eqSSou0Mf1jc9GLVAKj3hZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032140116636-1502nsv331vl3tb3f5tfnm3p205et0is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

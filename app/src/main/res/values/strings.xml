@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Tanaj</string>
+    <string name="settings">Configuración</string>
+    <string name="about">Información</string>
+    <string name="settings000_string001">Tema</string>
+    <string name="settings000_str002">Claro</string>
+    <string name="settings000_str003">Oscuro</string>
+    <string name="settings001_str004">Texto en español</string>
+    <string name="settings001_str005">Tamaño:</string>
+    <string name="settings001_str006">Texto de muestra:</string>
+    <string name="settings001_str007">En el principio creó Dios;</string>
+    <string name="settings001_str008">Texto transliterado</string>
+    <string name="settings001_str009">Bereshit bará Elohim;</string>
+    <string name="settings001_str010">Texto en hebreo</string>
+    <string name="settings001_str011">בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים</string>
+    <string name="settings001_str012">Fuente</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="tab_text_1">Formato</string>
+    <string name="tab_text_2">Texto</string>
+    <string name="tab_text_3">Vista</string>
+
+    <string name="font_000">Sans</string>
+    <string name="font_001">Sefer</string>
+    <string name="font_002">Serif</string>
+    <string name="font_003">Stam</string>
+
+    <string-array name="fonts_array">
+        <item>@string/font_000</item>
+        <item>@string/font_001</item>
+        <item>@string/font_002</item>
+        <item>@string/font_003</item>
+    </string-array>
+
+    <string name="sets002_str001">Elige las equivalencias al español que quieres usar para el texto en hebreo. Puedes crear una configuración personalizada.</string>
+
+    <string name="sets002_str002">Configuración</string>
+    <string name="topt_000">Académico</string>
+    <string name="topt_001">Estudio</string>
+    <string name="topt_002">Español 1</string>
+    <string name="topt_003">Español 2</string>
+    <string name="topt_004">Anglo 1</string>
+    <string name="topt_005">Anglo 2</string>
+    <string name="topt_006">Personalizado</string>
+
+    <string-array name="topts_array">
+        <item>@string/topt_000</item>
+        <item>@string/topt_001</item>
+        <item>@string/topt_002</item>
+        <item>@string/topt_003</item>
+        <item>@string/topt_004</item>
+        <item>@string/topt_005</item>
+        <item>@string/topt_006</item>
+    </string-array>
+
+    <string name="s002_sample00a">גֶ֖פֶן</string>
+    <string name="s002_sample01a">וַיִּקְרָ֖א</string>
+    <string name="s002_sample02a">חָכְמָה</string>
+    <string name="s002_sample03a">צְדָקָה</string>
+    <string name="s002_sample04a">שַׁבָּת</string>
+
+    <string name="s002_sample00b">ḡe·p̄en</string>
+    <string name="s002_sample01b">way·yiq·rā</string>
+    <string name="s002_sample02b">ḥo̞ḵ·māh</string>
+    <string name="s002_sample03b">ṣə·ḏā·qāh</string>
+    <string name="s002_sample04b">šab·baṯ</string>
+
+    <string name="s002_c001a">Opciones</string>
+    <string name="s002_c001">Caracter</string>
+    <string name="s002_c002">Equivalencia</string>
+
+    <string name="s003_001">Elige los campos que deseas visualizar</string>
+    <string name="s003_chk000">Concordancia Strong</string>
+    <string name="s003_chk001">Texto en español</string>
+    <string name="s003_chk002">Transliteración</string>
+    <string name="s003_chk003">Categoría gramatical</string>
+
+    <string name="s003_txt004">בְּרֵאשִׁ֖ית</string>
+    <string name="s003_txt000">h7225</string>
+    <string name="s003_txt001">En el principio</string>
+    <string name="s003_txt002">bə·rê·šîṯ</string>
+    <string name="s003_txt003">Sust.</string>
+
+    <string name="s003_002">Nombres de los libros</string>
+    <string-array name="bookNames">
+        <item>Español</item>
+        <item>Transliterado</item>
+        <item>Hebreo</item>
+    </string-array>
+
+    <string-array name="booksDF">
+        <item>Génesis</item>
+        <item>Éxodo</item>
+        <item>Levítico</item>
+        <item>Números</item>
+        <item>Deuteronomio</item>
+    </string-array>
+
+    <string-array name="booksHT">
+        <item>bə·rê·šîṯ</item>
+        <item>šə·mōṯ</item>
+        <item>way·yiq·rā</item>
+        <item>bə·miḏ·bar</item>
+        <item>də·ḇā·rîm</item>
+    </string-array>
+
+    <string-array name="booksHE">
+        <item>בראשית</item>
+        <item>שמות</item>
+        <item>ויקרא</item>
+        <item>במדבר</item>
+        <item>דברים</item>
+    </string-array>
+
+    <string name="title_activity_settings004">Settings004</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+
+    <string name="btnNext">Siguiente</string>
+    <string name="btnSaveMessage">Configuración actualizada</string>
+    <string name="back">Atrás</string>
+
+    <string name="todo">TODO</string>
+
+    <string-array name="tanajBooks">
+        <item>Génesis</item>
+        <item>Éxodo</item>
+        <item>Divréi Hayamim</item>
+        <item>Shir Hashirim</item>
+    </string-array>
+    <string name="title_activity_read">Read</string>
+
+    <string-array name="tanajTestChap">
+        <item>1</item>
+    </string-array>
+
+
+</resources>
