@@ -21,7 +21,6 @@ import android.widget.PopupMenu;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -141,10 +140,6 @@ public class ActivityRead extends AppCompatActivity {
     private void confiSearch() {
         search = findViewById(R.id.read_search);
 
-
-
-
-
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -180,8 +175,6 @@ public class ActivityRead extends AppCompatActivity {
                     if(mediaPlayer.isPlaying()){
                         mediaPlayer.pause();
                         mediaPlayer.stop();
-
-
                     }
                 }
 
@@ -428,8 +421,6 @@ public class ActivityRead extends AppCompatActivity {
             vm.setsTransl(tl);
         }
 
-
-
         FlexboxLayoutManager layoutManager = new FlexboxLayoutManager(getApplicationContext());
 
         layoutManager.setFlexDirection(FlexDirection.ROW_REVERSE);
@@ -665,7 +656,7 @@ public class ActivityRead extends AppCompatActivity {
     private void playAction() {
         if(mediaPlayer.getDuration()==0){
             mediaPlayer.pause();
-            Toast.makeText(ActivityRead.this, "Base de datos no disponible", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(ActivityRead.this, "Base de datos no disponible", Toast.LENGTH_SHORT).show();
             play.setImageResource(R.drawable.ic_play);
             return;
         }

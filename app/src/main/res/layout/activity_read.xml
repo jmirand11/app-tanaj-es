@@ -79,7 +79,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="16dp"
+        android:visibility="gone">
 
         <ImageView
             android:id="@+id/read_play"
@@ -109,7 +110,7 @@
         <ImageButton
             android:id="@+id/read_back"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_alignLeft="@id/read_vp"
             android:layout_alignParentLeft="true"
             android:layout_centerInParent="true"
@@ -132,7 +133,7 @@
         <ImageButton
             android:id="@+id/read_next"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_alignRight="@id/read_vp"
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"

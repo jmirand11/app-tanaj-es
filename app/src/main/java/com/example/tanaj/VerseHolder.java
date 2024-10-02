@@ -126,6 +126,7 @@ public class VerseHolder extends RecyclerView.ViewHolder {
             it04.setVisibility(View.GONE);
         }
 
+        // Configure Lemma listener
         it04.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -144,7 +145,7 @@ public class VerseHolder extends RecyclerView.ViewHolder {
 
                 String m = viewModel.getGrammar();
 
-                message.setText(Html.fromHtml(m));
+                message.setText(m);
 
                 builder.setPositiveButton("OK", null);
 
