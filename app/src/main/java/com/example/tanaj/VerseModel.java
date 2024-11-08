@@ -18,6 +18,8 @@ public class VerseModel {
     private String sOrigin;
     private String sCount;
 
+    private String sPictographic;
+
     public VerseModel(String strong, String hebrew, String translation, String transliteration, String morphology, String grammar) {
         this.hebrew = hebrew;
         this.morphology = morphology;
@@ -106,6 +108,10 @@ public class VerseModel {
     public void setsOrigin(String sOrigin) {
         this.sOrigin = sOrigin;
     }
+
+    public String getsPictographic(){return sPictographic;}
+
+    public void  setsPictographic(String sPictographic){this.sPictographic = sPictographic;}
 
     public String getsCount() {
         return sCount;

@@ -165,7 +165,7 @@ public class DataBaseHelper extends SQLiteAssetHelper {
             href = "'" + w.getStrong() + "'";
 
             // Query fields
-            c = db.rawQuery("SELECT LEXICAL_FORM, TRANSLITERATED_LEXICAL_FORM, DEFINITION_SP, PART_OF_SPEECH_SP, ORIGIN FROM STRONGS_WORD WHERE HREF = " + href , null);
+            c = db.rawQuery("SELECT LEXICAL_FORM, TRANSLITERATED_LEXICAL_FORM, DEFINITION_SP, PART_OF_SPEECH_SP, ORIGIN, PICTOGRAPHIC FROM STRONGS_WORD WHERE HREF = " + href , null);
 
             if(c.getCount()>0){
                 c.moveToFirst();
@@ -174,12 +174,14 @@ public class DataBaseHelper extends SQLiteAssetHelper {
                 w.setsDefint(c.getString(2));
                 w.setsLemma(c.getString(3));
                 w.setsOrigin(c.getString(4));
+                w.setsPictographic(c.getString(5));
             }else{
                 w.setsHebrew(w.getHebrew());
                 w.setsTransl(w.getTransliteration());
                 w.setsDefint(w.getTranslation());
                 w.setsLemma("-");
                 w.setsOrigin("-");
+                w.setsPictographic("");
             }
 
             c.close();
@@ -200,7 +202,7 @@ public class DataBaseHelper extends SQLiteAssetHelper {
         // Create cursor
         Cursor c;
 
-        c = DB.rawQuery("SELECT LEXICAL_FORM, TRANSLITERATED_LEXICAL_FORM, DEFINITION_SP, PART_OF_SPEECH_SP, ORIGIN FROM STRONGS_WORD WHERE ID = " + href + ";", null);
+        c = DB.rawQuery("SELECT LEXICAL_FORM, TRANSLITERATED_LEXICAL_FORM, DEFINITION_SP, PART_OF_SPEECH_SP, ORIGIN, PICTOGRAPHIC FROM STRONGS_WORD WHERE ID = " + href + ";", null);
 
         if(c.getCount() > 0){
             c.moveToFirst();
@@ -209,6 +211,7 @@ public class DataBaseHelper extends SQLiteAssetHelper {
             l.add(c.getString(2));
             l.add(c.getString(3));
             l.add(c.getString(4));
+            l.add(c.getString(5));
         }
 
         c.close();

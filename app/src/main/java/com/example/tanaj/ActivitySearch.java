@@ -205,6 +205,8 @@ public class ActivitySearch extends AppCompatActivity {
     private TextView org;
     private TextView frq;
     private TextView nvr;
+    // Picrographic
+    private TextView pic;
     private ProgressDialog progress;
     private  List<StrongModel> cites;
     public void getInfoStrong(int val) {
@@ -217,6 +219,7 @@ public class ActivitySearch extends AppCompatActivity {
         def = findViewById(R.id.search_def);
         lmm = findViewById(R.id.search_lmm);
         org = findViewById(R.id.search_org);
+        pic = findViewById(R.id.search_pic);
 
         // Set size
         heb.setTypeface(tf);
@@ -239,6 +242,10 @@ public class ActivitySearch extends AppCompatActivity {
         String origin = l1.get(4);
         origin = origin.replaceAll(" - ", "\n- ");
         org.setText(origin);
+
+        // Set pictographic
+        String pictographic = l1.get(5);
+        pic.setText(pictographic);
 
         // Frequence of word
         frq = findViewById(R.id.search_freq);

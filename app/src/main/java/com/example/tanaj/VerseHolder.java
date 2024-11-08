@@ -196,6 +196,10 @@ public class VerseHolder extends RecyclerView.ViewHolder {
         TextView sf_03 = v.findViewById(R.id.str_lemma);
         sf_03.setText(vm.getsLemma());
 
+        // Field: Pictographic
+        TextView sf_06 = v.findViewById(R.id.str_picto);
+        sf_06.setText(vm.getsPictographic());
+
         // Field: Origin
         TextView sf_04 = v.findViewById(R.id.str_origin);
         sf_04.setText(vm.getsOrigin());
